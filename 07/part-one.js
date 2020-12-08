@@ -16,7 +16,7 @@ while (searchTerms.length !== 0) {
   rows.forEach(row => {
     if (row.contain.includes(searchTerm)) {
       searchTerms.push(row.type)
-      possibleBags.add(row.type)
+      possibleBags.add(row)
     }
   })
 }
